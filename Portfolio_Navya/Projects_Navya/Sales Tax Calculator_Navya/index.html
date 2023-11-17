@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sales Tax Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="sales_tax.js"></script>
+</head>
+<body>
+<main>
+    <div id="container">
+        <h1>Sales Tax Calculator</h1>
+        <p>Enter Subtotal and Tax Rate and click "Calculate".</p> 
+        <div id="input">
+            <div class="input1">
+                <label for="subtotal">Subtotal:</label>
+                <input type="text" id="subtotal" autofocus ><br>
+            </div>
+
+            <div class="input1">
+                <label for="tax_rate">Tax Rate:</label>
+                <input type="text" id="tax_rate" ><br>
+            </div>
+
+            <div class="input1">
+                <label for="sales_tax">Sales Tax:</label>
+                <input type="text" id="sales_tax" disabled ><br>
+            </div>
+
+            <div class="input1">
+                <label for="total">Total:</label>
+                <input type="text" id="total" disabled ><br>
+            </div>
+
+            <div id="group">
+                <input type="button" id="calculate" value="Calculate" >
+                <input type="button" id="clear" value="Clear" ><br>
+            </div>
+            
+        </div>
+    </div>
+</main>
+</body>
+</html>

@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: white; */
+    margin: 0 auto;
+    /* padding: 10px 20px; */
+    width: 600px;
+    border: 3px solid blue;
+    border-radius: .5em;
+}
+h1 {
+	color: blue;
+	margin-top: 0;
+	margin-bottom: .5em;
+    font-size: 26px;
+}
+h2 {
+	color: blue;
+	font-size: 120%;
+	padding: 0;
+	margin-bottom: .5em;
+}
+main {
+    background-color: #cdd9e8;
+    padding: 10px 20px;
+    border-radius: .5em;
+}
+label {
+	float: left;
+    width: 3em;
+    text-align: right;
+}
+input {
+    margin-left: 1em;
+    margin-bottom: .6em;
+    border-radius: 5px;
+    border:1px solid black;
+}
+input[type=button]{
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: 0.3em;
+    margin-top: .6em;
+    margin-bottom: 1.8em;
+    background-color: blue;
+    color: white;
+}
+p {
+	margin: 0;
+}
+td {
+	width: 10em;
+}
+.th{
+    text-align: left;
+    color: blue;
+}
+span{
+    font-size: 12px;
+    color: red;
+    display: none;
+}
+.buttonGrp{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid blue;
+}
+#h1Ele{
+    text-align: center;
+    border-bottom: 1px solid blue;
+    padding-bottom: .4em;
+}
+.headings,.headingTwo{
+    margin-top:0em;
+}
+#results{
+    border-bottom: 1px solid blue;
+    padding-bottom: 0.6em;
+}
+#scoreDiv{
+    padding-top: 0.8em;
+}
+p{
+    padding-bottom: .5em;
+}
